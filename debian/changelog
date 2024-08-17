@@ -1,0 +1,5 @@
+zig (0.13.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- unknown <admin@unknown>  Sat, 17 Aug 2024 17:35:25 +0800
