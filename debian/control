@@ -1,0 +1,14 @@
+Source: zig
+Section: devel
+Priority: optional
+Maintainer: errorcode7 <errorcode7@qq.com>
+Build-Depends: debhelper (>= 11),dh-make,dpkg-dev,build-essential,cmake,clang-18,libclang-18-dev,libclang-cpp18-dev,llvm-18,llvm-18-dev,lld-18,liblld-18-dev,libpolly-18-dev,libllvm18
+Standards-Version: 4.1.3
+Homepage: https://ziglang.org/
+Vcs-Git: https://github.com/ziglang/zig
+
+Package: zig
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Zig is a general-purpose programming language
+ and toolchain for maintaining robust, optimal and reusable software.
